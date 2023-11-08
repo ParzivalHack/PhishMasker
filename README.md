@@ -1,4 +1,4 @@
-# PhishMasker
+# PhishMasker (PoC)
 
 PhishMasker is a powerful and user-friendly Bash script, made as a (PoC), designed for the purpose of concealing and disguising phishing URLs. This tool is ideal for enhancing the effectiveness of social engineering campaigns by creating masked URLs that appear legitimate and appealing to potential targets. PhishMasker leverages the Rebrandly URL shortening service to shorten and mask the provided phishing URL. Users can customize the masked URL with their desired masking domain and social engineering words. This tool is a valuable addition to any ethical hacking or penetration testing toolkit, helping professionals simulate real-world scenarios while maintaining security and anonymity.
 
@@ -20,7 +20,6 @@ Before downloading, the API_KEY in this script is generated and owned by me; you
 
 So if the tool isn't masking anymore URLs, it's because my personal API_KEY reached its monthly usage limit.
 
-If you use this tool for personal use, just go to rebrand.ly, generate and use your own API_KEY.
 
 ``` git clone https://github.com/ParzivalHack/PhishMasker```
 
@@ -30,4 +29,6 @@ If you use this tool for personal use, just go to rebrand.ly, generate and use y
 
 ```bash phishmasker.sh```
 
+If you use this tool for personal use, just go to https://rebrand.ly, create a free account, generate and use your own API_KEY.
 
+To do so, after you ```git clone``` the repo and ```cd``` into the directory, just use ```nano phishmasker.sh``` to modify the bash script and just modify ```API_KEY``` by inserting your own. Then save with CTRL+S and exit nano with CTRL+X.
