@@ -8,6 +8,7 @@ url_checker() {
         echo -e "\e[31m [!] Invalid URL. Please use http or https.\e[0m"
         exit 1
     fi
+}
 read -p "Input your Rebrand.ly API Key: " API_KEY
 # (Additional ASCII art lines...)
 echo -e "### Masking Domain ###"
