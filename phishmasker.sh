@@ -10,8 +10,6 @@ url_checker() {
     fi
 }
 
-# Display ASCII art
-echo -e "###┌──────────────────────────┐###"
 # (Additional ASCII art lines...)
 echo -e "### Masking Domain ###"
 
@@ -21,7 +19,7 @@ echo -en "=>"
 read phish
 url_checker $phish
 sleep 1
-echo "\e[1;33m [*] Processing and modifying phishing URL...\e[0m"
+echo -e "\e[1;33m [*] Processing and modifying phishing URL...\e[0m"
 echo ""
 
 API_KEY="2fe4436fc9c64a09b287832f134535db"
