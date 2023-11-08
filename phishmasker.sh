@@ -60,4 +60,4 @@ fi
 echo -e "\e[1;33m [*] Generating PhishMasker Link...\n"
 shorter=${shorter#https://}
 final=$mask-$words@$shorter
-echo -e "\e[32m [+] Here is the PhishMasker URL: \e35m ${final}"
+echo -e "\e[32m [+] Here is the PhishMasker URL: \e[35m ${final}"
