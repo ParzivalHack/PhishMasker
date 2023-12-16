@@ -11,7 +11,7 @@ PhishMasker operates by first validating the user-provided phishing URL to ensur
 
 # Requirements
 
-```sudo apt install jq```
+```pip install jq```
 
 ```sudo apt install curl```
 
